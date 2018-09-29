@@ -1,0 +1,65 @@
+@import "src/styles/colors";
+@import "src/styles/devices";
+
+.hero {
+  h1 {
+    font-size: 2.75rem;
+    font-weight: 900;
+  }
+  h3 {
+    color: $grey;
+  }
+
+  .subscription-form {
+    padding-top: 24px;
+  }
+}
+
+
+.our-why {
+  padding: 192px 32px;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 2;
+    color: $grey;
+  }
+
+  .subscription-form {
+    padding-top: 24px;
+  }
+}
+
+.how-do-we-plan {
+  background: $rising-green;
+  color: $white;
+  padding: 192px 32px;
+  background-size: 720px;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: $white;
+  }
+}
+
+.join-us{
+  color: $black;
+  padding: 192px 32px;
+  background-size: 720px;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: $black;
+  }
+
+  .brand-element {
+    text-align: right;
+  }
+}

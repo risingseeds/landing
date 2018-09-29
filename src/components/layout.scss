@@ -2,6 +2,21 @@
 @import "src/styles/devices";
 @import "src/styles/overrides";
 
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Avenir', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
 .container {
 	padding: 0 2rem;
 	width: 1440px;
@@ -22,7 +37,6 @@
 
 	&.scrolled {
 		background: $white;
-		box-shadow: 0 0 2px 1px rgba(0,0,0,.16);
 		border-bottom: 0;
 	}
 }
@@ -30,7 +44,7 @@
 
 .dark-section {
 	padding: 80px 0;
-	background: $hut8-dark;
+	background: $black;
 	.title {
 		font-size: 2.25rem;
 		color: $white;
@@ -49,7 +63,7 @@
 
 .title-divider {	
   border-bottom-style: solid;
-  border-color: $hut8-teal;
+  border-color: $rising-green;
   border-bottom-width: 1px;
   margin-top: 0;
   margin-bottom: 20px;
@@ -61,7 +75,8 @@
 }
 
 .main-pages {
-	position: relative;
+  position: relative;
+  margin-top: 160px;
 }
 
 .section-triangle {

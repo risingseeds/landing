@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { Layout } from 'antd'
 import { StaticQuery, graphql } from 'gatsby'
 import Navbar from './navbar'
+import Footer from './footer'
 import './layout.scss'
 
 const { Header, Content } = Layout;
@@ -41,6 +42,7 @@ const App = ({ children }) => (
               </Content>
             </Layout>
           </Content>
+          <Footer />
         </Layout>
       </div>
     )}

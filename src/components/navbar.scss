@@ -32,7 +32,6 @@
 	}
 
 	.logo {
-	  margin: 8px;
 	  float: left;
 	}
 	.nav {
@@ -76,7 +75,7 @@
 	    right: -100%;
 	    transition: all 350ms ease-in-out;
 	    animation: transform 1s 1s;
- 		  background: $hut8-dark;
+ 		  background: $black;
 	  }
 	}
 

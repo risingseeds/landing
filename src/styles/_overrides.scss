@@ -1,8 +1,23 @@
+.ant-btn-primary {
+	color: $white;
+  background-color: $rising-green;
+  border-color: $rising-green;
+  padding: 8px 64px;
+  height: auto;
+  box-shadow: none;
+  text-shadow: none;
+  font-weight: 800;
+}
+
 // carousel 
 .ant-carousel .slick-dots li.slick-active button {
-	background: $hut8-dark !important;
+	background: $black;
 }
 
 .ant-carousel .slick-dots li button {
-	background: $silver !important;
+	background: $silver;
+}
+
+.ant-layout {
+  background: $white;
 }
