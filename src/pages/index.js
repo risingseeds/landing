@@ -30,10 +30,8 @@ const IndexPage = () => (
             <img src={whyArtwork} />
           </Col>
           <Col md={12}>
-            <h1>Why we created this?</h1>
-            <p className="content">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-            
-            Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            <h1>Why do we need this?</h1>
+            <p className="content">Realizing the potential application of blockchain and similar technologies can empower people around the world. We made it our mission to help people navigate through the decentralized web to discover legitimate projects that will shape the world for the better.</p>
             <div className="subscription-form">
               <Button type="primary" size="large">Primary</Button>
             </div>
